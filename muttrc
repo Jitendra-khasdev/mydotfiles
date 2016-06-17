@@ -28,3 +28,15 @@ set sort_aux = last-date-received
 
 ##Set editor to create new email
 set editor='vim'
+
+set text_flowed=yes                                                        
+
+#scroll inside the message rather than the index                           
+bind pager <up> previous-line                                              
+bind pager <down> next-line                                                
+
+#To Make mutt faster                                                       
+set sleep_time = 0                                                         
+
+# To Make mail in format view                                              
+set smart_wrap 
